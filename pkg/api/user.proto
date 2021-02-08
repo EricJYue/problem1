@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package problem;
+
+
+message User {
+    int32 id = 1;
+    string name = 2;
+    int32 age = 3;
+    string city = 4;
+}
+
+
+message UserList {
+    repeated User users = 1;
+}
